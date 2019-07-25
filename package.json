@@ -1,0 +1,19 @@
+{
+  "name": "code-statistics",
+  "version": "0.1.0",
+  "description": "A Nodejs project",
+  "author": "YuanLee",
+  "private": true,
+  "dependencies": {
+    "async-file": "^2.0.2",
+    "fs-extra": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "DATA/"
+    ]
+  }
+}

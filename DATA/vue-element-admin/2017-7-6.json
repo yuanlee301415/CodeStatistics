@@ -1,0 +1,958 @@
+{
+  "info": {
+    "folderCount": 54,
+    "fileCount": 125,
+    "lineCount": 25929
+  },
+  "tree": [
+    {
+      "name": "api",
+      "type": "dir",
+      "children": [
+        {
+          "name": "article.js",
+          "type": "file",
+          "lineCount": 33
+        },
+        {
+          "name": "article_table.js",
+          "type": "file",
+          "lineCount": 35
+        },
+        {
+          "name": "login.js",
+          "type": "file",
+          "lineCount": 59
+        },
+        {
+          "name": "qiniu.js",
+          "type": "file",
+          "lineCount": 17
+        },
+        {
+          "name": "remoteSearch.js",
+          "type": "file",
+          "lineCount": 19
+        }
+      ]
+    },
+    {
+      "name": "App.vue",
+      "type": "file",
+      "lineCount": 31
+    },
+    {
+      "name": "assets",
+      "type": "dir",
+      "children": [
+        {
+          "name": "401_images",
+          "type": "dir",
+          "children": [
+            {
+              "name": "401.gif",
+              "type": "file",
+              "lineCount": 2083
+            }
+          ]
+        },
+        {
+          "name": "404_images",
+          "type": "dir",
+          "children": [
+            {
+              "name": "404.png",
+              "type": "file",
+              "lineCount": 1037
+            },
+            {
+              "name": "404_cloud.png",
+              "type": "file",
+              "lineCount": 53
+            }
+          ]
+        },
+        {
+          "name": "custom-theme",
+          "type": "dir",
+          "children": [
+            {
+              "name": "fonts",
+              "type": "dir",
+              "children": [
+                {
+                  "name": "element-icons.ttf",
+                  "type": "file",
+                  "lineCount": 193
+                },
+                {
+                  "name": "element-icons.woff",
+                  "type": "file",
+                  "lineCount": 79
+                }
+              ]
+            },
+            {
+              "name": "index.css",
+              "type": "file",
+              "lineCount": 1
+            }
+          ]
+        },
+        {
+          "name": "echarts-macarons.js",
+          "type": "file",
+          "lineCount": 399
+        },
+        {
+          "name": "iconfont",
+          "type": "dir",
+          "children": [
+            {
+              "name": "iconfont.js",
+              "type": "file",
+              "lineCount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "components",
+      "type": "dir",
+      "children": [
+        {
+          "name": "Charts",
+          "type": "dir",
+          "children": [
+            {
+              "name": "keyboard.vue",
+              "type": "file",
+              "lineCount": 227
+            },
+            {
+              "name": "keyboard2.vue",
+              "type": "file",
+              "lineCount": 301
+            },
+            {
+              "name": "lineMarker.vue",
+              "type": "file",
+              "lineCount": 445
+            },
+            {
+              "name": "mixchart.vue",
+              "type": "file",
+              "lineCount": 537
+            }
+          ]
+        },
+        {
+          "name": "Dropzone",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 595
+            }
+          ]
+        },
+        {
+          "name": "ErrLog",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 113
+            }
+          ]
+        },
+        {
+          "name": "Hamburger",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 93
+            }
+          ]
+        },
+        {
+          "name": "Icon-svg",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 45
+            }
+          ]
+        },
+        {
+          "name": "ImageCropper",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 1399
+            },
+            {
+              "name": "lang.js",
+              "type": "file",
+              "lineCount": 83
+            },
+            {
+              "name": "upload.css",
+              "type": "file",
+              "lineCount": 1381
+            },
+            {
+              "name": "utils.js",
+              "type": "file",
+              "lineCount": 117
+            }
+          ]
+        },
+        {
+          "name": "jsonEditor",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 129
+            }
+          ]
+        },
+        {
+          "name": "MdEditor",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 229
+            }
+          ]
+        },
+        {
+          "name": "MDinput",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 601
+            }
+          ]
+        },
+        {
+          "name": "PanThumb",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 281
+            }
+          ]
+        },
+        {
+          "name": "Screenfull",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 107
+            }
+          ]
+        },
+        {
+          "name": "SplitPane",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 225
+            },
+            {
+              "name": "Pane.vue",
+              "type": "file",
+              "lineCount": 89
+            },
+            {
+              "name": "Resizer.vue",
+              "type": "file",
+              "lineCount": 145
+            }
+          ]
+        },
+        {
+          "name": "Sticky",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 149
+            }
+          ]
+        },
+        {
+          "name": "Tinymce",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 355
+            }
+          ]
+        },
+        {
+          "name": "TodoList",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.scss",
+              "type": "file",
+              "lineCount": 637
+            },
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 237
+            },
+            {
+              "name": "Todo.vue",
+              "type": "file",
+              "lineCount": 141
+            }
+          ]
+        },
+        {
+          "name": "twoDndList",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 317
+            }
+          ]
+        },
+        {
+          "name": "Upload",
+          "type": "dir",
+          "children": [
+            {
+              "name": "singleImage.vue",
+              "type": "file",
+              "lineCount": 245
+            },
+            {
+              "name": "singleImage2.vue",
+              "type": "file",
+              "lineCount": 239
+            },
+            {
+              "name": "singleImage3.vue",
+              "type": "file",
+              "lineCount": 293
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "directive",
+      "type": "dir",
+      "children": [
+        {
+          "name": "sticky.js",
+          "type": "file",
+          "lineCount": 191
+        },
+        {
+          "name": "waves.css",
+          "type": "file",
+          "lineCount": 51
+        },
+        {
+          "name": "waves.js",
+          "type": "file",
+          "lineCount": 95
+        }
+      ]
+    },
+    {
+      "name": "filters",
+      "type": "dir",
+      "children": [
+        {
+          "name": "index.js",
+          "type": "file",
+          "lineCount": 222
+        }
+      ]
+    },
+    {
+      "name": "main.js",
+      "type": "file",
+      "lineCount": 209
+    },
+    {
+      "name": "mock",
+      "type": "dir",
+      "children": [
+        {
+          "name": "article.js",
+          "type": "file",
+          "lineCount": 76
+        },
+        {
+          "name": "article_table.js",
+          "type": "file",
+          "lineCount": 91
+        },
+        {
+          "name": "index.js",
+          "type": "file",
+          "lineCount": 51
+        },
+        {
+          "name": "login.js",
+          "type": "file",
+          "lineCount": 83
+        },
+        {
+          "name": "remoteSearch.js",
+          "type": "file",
+          "lineCount": 49
+        }
+      ]
+    },
+    {
+      "name": "router",
+      "type": "dir",
+      "children": [
+        {
+          "name": "index.js",
+          "type": "file",
+          "lineCount": 427
+        },
+        {
+          "name": "_import_development.js",
+          "type": "file",
+          "lineCount": 3
+        },
+        {
+          "name": "_import_production.js",
+          "type": "file",
+          "lineCount": 3
+        }
+      ]
+    },
+    {
+      "name": "store",
+      "type": "dir",
+      "children": [
+        {
+          "name": "errLog.js",
+          "type": "file",
+          "lineCount": 27
+        },
+        {
+          "name": "getters.js",
+          "type": "file",
+          "lineCount": 29
+        },
+        {
+          "name": "index.js",
+          "type": "file",
+          "lineCount": 39
+        },
+        {
+          "name": "modules",
+          "type": "dir",
+          "children": [
+            {
+              "name": "app.js",
+              "type": "file",
+              "lineCount": 89
+            },
+            {
+              "name": "permission.js",
+              "type": "file",
+              "lineCount": 125
+            },
+            {
+              "name": "user.js",
+              "type": "file",
+              "lineCount": 267
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "styles",
+      "type": "dir",
+      "children": [
+        {
+          "name": "btn.scss",
+          "type": "file",
+          "lineCount": 207
+        },
+        {
+          "name": "element-ui.scss",
+          "type": "file",
+          "lineCount": 167
+        },
+        {
+          "name": "index.scss",
+          "type": "file",
+          "lineCount": 539
+        },
+        {
+          "name": "mixin.scss",
+          "type": "file",
+          "lineCount": 121
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "type": "dir",
+      "children": [
+        {
+          "name": "createUniqueString.js",
+          "type": "file",
+          "lineCount": 17
+        },
+        {
+          "name": "fetch.js",
+          "type": "file",
+          "lineCount": 137
+        },
+        {
+          "name": "index.js",
+          "type": "file",
+          "lineCount": 519
+        },
+        {
+          "name": "openWindow.js",
+          "type": "file",
+          "lineCount": 55
+        },
+        {
+          "name": "validate.js",
+          "type": "file",
+          "lineCount": 107
+        }
+      ]
+    },
+    {
+      "name": "vendor",
+      "type": "dir",
+      "children": [
+        {
+          "name": "Blob.js",
+          "type": "file",
+          "lineCount": 383
+        },
+        {
+          "name": "Export2Excel.js",
+          "type": "file",
+          "lineCount": 291
+        }
+      ]
+    },
+    {
+      "name": "views",
+      "type": "dir",
+      "children": [
+        {
+          "name": "charts",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 15
+            },
+            {
+              "name": "keyboard.vue",
+              "type": "file",
+              "lineCount": 49
+            },
+            {
+              "name": "keyboard2.vue",
+              "type": "file",
+              "lineCount": 49
+            },
+            {
+              "name": "line.vue",
+              "type": "file",
+              "lineCount": 49
+            },
+            {
+              "name": "mixchart.vue",
+              "type": "file",
+              "lineCount": 51
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "type": "dir",
+          "children": [
+            {
+              "name": "avatarUpload.vue",
+              "type": "file",
+              "lineCount": 99
+            },
+            {
+              "name": "countTo.vue",
+              "type": "file",
+              "lineCount": 377
+            },
+            {
+              "name": "dndlist.vue",
+              "type": "file",
+              "lineCount": 77
+            },
+            {
+              "name": "dropzone.vue",
+              "type": "file",
+              "lineCount": 61
+            },
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 15
+            },
+            {
+              "name": "jsoneditor.vue",
+              "type": "file",
+              "lineCount": 61
+            },
+            {
+              "name": "markdown.vue",
+              "type": "file",
+              "lineCount": 67
+            },
+            {
+              "name": "mixin.vue",
+              "type": "file",
+              "lineCount": 91
+            },
+            {
+              "name": "splitpane.vue",
+              "type": "file",
+              "lineCount": 131
+            },
+            {
+              "name": "sticky.vue",
+              "type": "file",
+              "lineCount": 253
+            },
+            {
+              "name": "tinymce.vue",
+              "type": "file",
+              "lineCount": 61
+            }
+          ]
+        },
+        {
+          "name": "dashboard",
+          "type": "dir",
+          "children": [
+            {
+              "name": "default",
+              "type": "dir",
+              "children": [
+                {
+                  "name": "index.vue",
+                  "type": "file",
+                  "lineCount": 165
+                }
+              ]
+            },
+            {
+              "name": "editor",
+              "type": "dir",
+              "children": [
+                {
+                  "name": "barChart.vue",
+                  "type": "file",
+                  "lineCount": 180
+                },
+                {
+                  "name": "index.vue",
+                  "type": "file",
+                  "lineCount": 283
+                },
+                {
+                  "name": "lineChart.vue",
+                  "type": "file",
+                  "lineCount": 217
+                },
+                {
+                  "name": "pieChart.vue",
+                  "type": "file",
+                  "lineCount": 155
+                }
+              ]
+            },
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 73
+            }
+          ]
+        },
+        {
+          "name": "errlog",
+          "type": "dir",
+          "children": [
+            {
+              "name": "errcode.vue",
+              "type": "file",
+              "lineCount": 15
+            },
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 51
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "type": "dir",
+          "children": [
+            {
+              "name": "401.vue",
+              "type": "file",
+              "lineCount": 175
+            },
+            {
+              "name": "404.vue",
+              "type": "file",
+              "lineCount": 459
+            }
+          ]
+        },
+        {
+          "name": "example",
+          "type": "dir",
+          "children": [
+            {
+              "name": "form.vue",
+              "type": "file",
+              "lineCount": 603
+            },
+            {
+              "name": "tab",
+              "type": "dir",
+              "children": [
+                {
+                  "name": "components",
+                  "type": "dir",
+                  "children": [
+                    {
+                      "name": "tabPane.vue",
+                      "type": "file",
+                      "lineCount": 199
+                    }
+                  ]
+                },
+                {
+                  "name": "index.vue",
+                  "type": "file",
+                  "lineCount": 89
+                }
+              ]
+            },
+            {
+              "name": "table",
+              "type": "dir",
+              "children": [
+                {
+                  "name": "dragTable.vue",
+                  "type": "file",
+                  "lineCount": 267
+                },
+                {
+                  "name": "dynamictable",
+                  "type": "dir",
+                  "children": [
+                    {
+                      "name": "fixedThead.vue",
+                      "type": "file",
+                      "lineCount": 115
+                    },
+                    {
+                      "name": "unfixedThead.vue",
+                      "type": "file",
+                      "lineCount": 95
+                    }
+                  ]
+                },
+                {
+                  "name": "dynamictable.vue",
+                  "type": "file",
+                  "lineCount": 39
+                },
+                {
+                  "name": "index.vue",
+                  "type": "file",
+                  "lineCount": 7
+                },
+                {
+                  "name": "inlineEditTable.vue",
+                  "type": "file",
+                  "lineCount": 193
+                },
+                {
+                  "name": "table.vue",
+                  "type": "file",
+                  "lineCount": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "excel",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 149
+            }
+          ]
+        },
+        {
+          "name": "introduction",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 53
+            }
+          ]
+        },
+        {
+          "name": "layout",
+          "type": "dir",
+          "children": [
+            {
+              "name": "AppMain.vue",
+              "type": "file",
+              "lineCount": 37
+            },
+            {
+              "name": "index.js",
+              "type": "file",
+              "lineCount": 15
+            },
+            {
+              "name": "Layout.vue",
+              "type": "file",
+              "lineCount": 161
+            },
+            {
+              "name": "Levelbar.vue",
+              "type": "file",
+              "lineCount": 103
+            },
+            {
+              "name": "Navbar.vue",
+              "type": "file",
+              "lineCount": 241
+            },
+            {
+              "name": "Sidebar.vue",
+              "type": "file",
+              "lineCount": 49
+            },
+            {
+              "name": "SidebarItem.vue",
+              "type": "file",
+              "lineCount": 95
+            },
+            {
+              "name": "TabsView.vue",
+              "type": "file",
+              "lineCount": 103
+            }
+          ]
+        },
+        {
+          "name": "login",
+          "type": "dir",
+          "children": [
+            {
+              "name": "authredirect.vue",
+              "type": "file",
+              "lineCount": 21
+            },
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 357
+            },
+            {
+              "name": "socialsignin.vue",
+              "type": "file",
+              "lineCount": 137
+            }
+          ]
+        },
+        {
+          "name": "permission",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 65
+            }
+          ]
+        },
+        {
+          "name": "qiniu",
+          "type": "dir",
+          "children": [
+            {
+              "name": "upload.vue",
+              "type": "file",
+              "lineCount": 79
+            }
+          ]
+        },
+        {
+          "name": "theme",
+          "type": "dir",
+          "children": [
+            {
+              "name": "index.vue",
+              "type": "file",
+              "lineCount": 213
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
