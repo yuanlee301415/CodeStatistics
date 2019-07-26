@@ -5,6 +5,8 @@ const fse = require('fs-extra')
 class Tree {
     constructor(product, dir, date) {
         console.log('Tree>args:', { product, dir, date })
+
+        if (!product) return console.error('\nERROR:::Product name validated failed!')
         date = new Date(date)
         if (!date.getTime()) return console.error('\nERROR:::Date validated failed!')
         this.product = product
@@ -20,7 +22,9 @@ class Tree {
         return this.start()
     }
     async start() {
-        new Error('\nERROR:::Date validated failed!')
+        const exists = await fse.pathExists(this.dir)
+        console.log('product path exists:', exists)
+        if (!exists) return console.error('\nERROR:::Product path validated failed!')
         await this.read('', this.tree)
         await this.save()
         return this.tree
@@ -53,8 +57,7 @@ class Tree {
     async save() {
         const savePath = `./tmp/${this.product}/${this.dateStr}.json`
         console.log('savePath:', savePath)
-        const savePathStat = await fse.ensureFile(savePath) // 如果文件不存在，则自动创建
-        console.log('savePathStat:', savePathStat)
+        await fse.ensureFile(savePath) // 如果文件不存在，则自动创建
         await afs.writeFile(savePath, JSON.stringify({ info: this.info, tree: this.tree}, null ,2))
         console.log(`\n:::[${this.product}]'s statistics data is stored in "${savePath}" at ${new Date().toLocaleString()}`)
     }
