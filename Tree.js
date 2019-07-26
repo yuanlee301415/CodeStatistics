@@ -30,13 +30,14 @@ class Tree {
         return this.tree
     }
     async read(dir, tree) {
-        console.log('read dir:', path.join(this.dir, dir))
-        const list = await afs.readdir(path.join(this.dir, dir))//.error(err => console.error(err))
+        // console.log('read dir:', path.join(this.dir, dir))
+        let list = await afs.readdir(path.join(this.dir, dir))
+        list = list.filter(name => ['assets', 'icons'].indexOf(name) === -1) // 过滤静态资源（图片/字体文件/图标）
         // console.log('dir list:', list)
         for (let name of list) {
-            const stat = await afs.stat(path.resolve(this.dir, dir, name))
-             // console.log('stat:', name, stat.isDirectory())
+            const stat = await afs.stat(path.join(this.dir, dir, name))
             if (stat.isDirectory()) {
+                console.log('add name:', name)
                 this.info.folderCount++
                 const child = { name, type: 'dir', children: [] }
                 tree.push(child)
@@ -51,7 +52,7 @@ class Tree {
         }
     }
     async lineCount(dir, name) {
-        const data = await afs.readFile(path.resolve(this.dir, dir, name), 'utf8')
+        const data = await afs.readFile(path.join(this.dir, dir, name), 'utf8')
         return data.split(/[\n|\r]/).length
     }
     async save() {
